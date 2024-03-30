@@ -1,0 +1,12 @@
+server:
+  port: ${PORT:8080}
+
+spring:
+  application:
+    name: santander-dev-week-2024
+
+  profiles:
+    active: ${APP_PROFILE:test}
+
+  jpa:
+    open-in-view: false
